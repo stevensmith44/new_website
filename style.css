@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+}
+
+div{
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif; 
+    src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display)
+}
+
+.section-one{
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.section-two{
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.section-three{
+    background-color: lightcyan;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-four{
+    background-color: lightcyan;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.section-end{
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
