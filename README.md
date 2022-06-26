@@ -1,3 +1,3 @@
 # new_website
 
-website with buncha css and html 
+Odin Project-2
