@@ -73,7 +73,7 @@ body{
 }
 
 .button {
-    background-color: #3882f6; /* Green */
+    background-color: #3882f6; 
     border: none;
     color: #f9faf8;
     padding: 15px 15px 15px 15px;
@@ -91,5 +91,31 @@ img{
     top: 150px;
     border: 10px solid #3882f6;
     transform: scaleX(-1);
-    box-shadow: 5px 10px black;
+    box-shadow: 5px 15px black;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    background-color: #f9faf8;
+    padding: 60px 0px 1200px 0px;
+}
+
+.middle_title{
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.middle_images{
+    height: auto;
+    width: auto;
+
+}
+
+.middle_texr{
+    color: #E5E7EB;
+    font-size: 18px;
 }
