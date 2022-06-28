@@ -74,7 +74,7 @@ body{
 
 .button {
     background-color: #3882f6; 
-    border: none;
+    border: 2px solid white;
     color: #f9faf8;
     padding: 15px 15px 15px 15px;
     margin: 30px 1200px 0px 100px;
@@ -84,7 +84,7 @@ body{
     border-radius: 15px;
 }
 
-img{
+.introduction_image{
     max-width: 70%;
     max-height: 70%;
     position: absolute;
@@ -98,7 +98,8 @@ img{
     display: flex;
     justify-content: center;
     background-color: #f9faf8;
-    padding: 60px 0px 1200px 0px;
+    padding: 60px 0px 200px 0px;
+    flex-direction: column;
 }
 
 .middle_title{
@@ -107,15 +108,103 @@ img{
     color: #1F2937;
     font-size: 50px;
     font-weight: bold;
+    padding: 0px 0px 150px 0px;
 }
 
 .middle_images{
-    height: auto;
-    width: auto;
-
+    max-height: 370px;
+    max-width: 250px;
+    margin: 0px 40px 0px;
+    border: 10px solid #1F2937;
+    border-radius: 50%;
 }
 
-.middle_texr{
-    color: #E5E7EB;
+.middle_text_one{
+    color: #1F2937;
+    font-weight: bolder;
     font-size: 18px;
+    position: absolute;
+    margin: 10px 0px 0px 550px;
+}
+
+.middle_text_two{
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 18px;
+    position: absolute;
+    margin: 10px 0px 0px 920px;
+}
+
+.middle_text_three{
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 18px;
+    position: absolute;
+    margin: 10px 0px 0px 1200px;
+}
+
+.quote{
+    padding: 0px 0px 100px 0px;
+    font-size: 36px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.quote_text{
+    margin-top: 100px;
+    padding: 0px 300px 0px 300px;
+    font-style: italic;
+}
+
+.quote_author{
+    padding: 0px 0px 0px 750px;
+    font-weight: bolder;
+}
+
+.final{
+    background-color: #f9faf8;
+    color: #f9faf8;
+}
+
+.blue_box{
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin:100px 400px 100px 400px;
+}
+
+.final_title{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 300px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.final_para{
+    font-size: 22px;
+    padding-bottom: 50px;
+    padding-right: 300px;
+}
+
+
+.final_button {
+    position:absolute;
+    top: 2230px;
+    left: 1150px;
+    background-color: #3882f6; 
+    border: 2px solid white;
+    color: #f9faf8;
+    padding: 15px 15px 15px 15px;
+    margin: 0px 100px 0px 100px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.footer_style{
+    color: #f9faf8;
+    background-color: #1F2937;
+    padding: 40px 0px 30px 0px;
+    font-weight: bold;
+    font-size: 20px;
 }
