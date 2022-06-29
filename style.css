@@ -54,7 +54,7 @@ body{
     color: #E5E7EB;
     background-color: #1F2937;
     justify-content: center;
-    padding: 1em 1em 30em 1em;
+    padding: 1em 1em 15em 1em;
 }
 
 .introduction_texts{
@@ -94,8 +94,8 @@ body{
 }
 
 .introduction_image{
-    max-width: 70%;
-    max-height: 70%;
+    max-width: auto;
+    max-height: 630px;
     position: absolute;
     top: 10em;
     border: 10px solid #3882f6;
