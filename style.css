@@ -4,11 +4,11 @@
 }
 
 body{
-    color: #FFFFFF;
     padding: 0;
     margin: 0;
     font-family: Roboto;
     text-align: center;
+    font-weight: 600;
 
 }
 
@@ -23,13 +23,20 @@ body{
     color: #f9faf8;
     background-color: #1F2937;
     align-items: center;
-    padding: 20px 0px 20px 100px;
+    padding: auto;
+}
 
+.navsection_head{
+    font-size: 36px;
+    margin-left: 1em;
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
 }
 
 .navsectionlinks{
     display: flex;
-    padding: 0px 100px 0px 0px;
+    padding: 1em 6em 1em 2em;
     margin-left: auto;
     
 }
@@ -37,8 +44,8 @@ body{
 .navsectionlinks a{
     color: #E5E7EB;
     text-decoration: none;
-    font-size: 18px;
-    padding: 10px;
+    font-size: 24px;
+    padding: 1em;
 
 }
 
@@ -47,7 +54,7 @@ body{
     color: #E5E7EB;
     background-color: #1F2937;
     justify-content: center;
-    padding: 0px 0px 400px 0px
+    padding: 1em 1em 30em 1em;
 }
 
 .introduction_texts{
@@ -59,16 +66,18 @@ body{
     display: flex;
     font-size: 48px;
     color: #f9faf8;
-    padding:0px 0px 30px 0px;
-    margin: 150px 0px 0px 200px;
+    padding: 2.5em 1em 0em 4em;
+    margin: 0.5em 4em;
 }
 
 .introduction_texts_para{
     display: flex;
-    font-size: 18px;
+    font-size: 24px;
     color: #E5E7EB;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 1200px 0px 200px;
+    margin: 0em 50em 1em 15em;
+    max-width: 27em;
+    min-width: 24em;
+    min-height: auto;
 
 }
 
@@ -76,8 +85,8 @@ body{
     background-color: #3882f6; 
     border: 2px solid white;
     color: #f9faf8;
-    padding: 15px 15px 15px 15px;
-    margin: 30px 1200px 0px 100px;
+    padding: 1em;
+    margin: 1em 60em 0em 1em;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
@@ -88,7 +97,7 @@ body{
     max-width: 70%;
     max-height: 70%;
     position: absolute;
-    top: 150px;
+    top: 10em;
     border: 10px solid #3882f6;
     transform: scaleX(-1);
     box-shadow: 5px 15px black;
@@ -98,7 +107,7 @@ body{
     display: flex;
     justify-content: center;
     background-color: #f9faf8;
-    padding: 60px 0px 200px 0px;
+    padding: 10em 0em;
     flex-direction: column;
 }
 
@@ -119,28 +128,15 @@ body{
     border-radius: 50%;
 }
 
-.middle_text_one{
+.middle_text{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
     color: #1F2937;
     font-weight: bolder;
     font-size: 18px;
-    position: absolute;
-    margin: 10px 0px 0px 550px;
-}
-
-.middle_text_two{
-    color: #1F2937;
-    font-weight: bolder;
-    font-size: 18px;
-    position: absolute;
-    margin: 10px 0px 0px 920px;
-}
-
-.middle_text_three{
-    color: #1F2937;
-    font-weight: bolder;
-    font-size: 18px;
-    position: absolute;
-    margin: 10px 0px 0px 1200px;
+    margin: 1em 30em;
+    justify-content: center;
 }
 
 .quote{
@@ -148,12 +144,18 @@ body{
     font-size: 36px;
     background-color: #E5E7EB;
     color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote_text{
     margin-top: 100px;
-    padding: 0px 300px 0px 300px;
+    padding: 0px 0px 0px 100px;
     font-style: italic;
+    max-width: 30em;
+    max-height: auto;
 }
 
 .quote_author{
@@ -161,41 +163,49 @@ body{
     font-weight: bolder;
 }
 
-.final{
-    background-color: #f9faf8;
-    color: #f9faf8;
-}
-
-.blue_box{
+.final div{
     background-color: #3882f6;
     border-radius: 10px;
-    margin:100px 400px 100px 400px;
 }
 
-.final_title{
-    padding-top: 30px;
-    padding-bottom: 10px;
-    padding-right: 300px;
-    font-size: 36px;
-    font-weight: bolder;
+.final div strong{
+    color: #f9faf8;
+    font-size: 24px;
 }
 
-.final_para{
-    font-size: 22px;
-    padding-bottom: 50px;
-    padding-right: 300px;
+.final div p{
+    color: #f9faf8;
+    font-size: 16px;
 }
 
+.final{
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.final div{
+    display: flex;
+}
+
+.final div .blue_box{
+    display: flex;
+    flex-direction: column;
+}
+
+.final div div{
+    margin: 50px;
+}
 
 .final_button {
-    position:absolute;
-    top: 2230px;
-    left: 1150px;
     background-color: #3882f6; 
     border: 2px solid white;
     color: #f9faf8;
-    padding: 15px 15px 15px 15px;
-    margin: 0px 100px 0px 100px;
+    padding: 1em;
+    margin: 0em 0em 0em 20em;
     text-align: center;
     font-size: 16px;
     border-radius: 15px;
